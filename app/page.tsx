@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 import { useState } from "react";
 import axios from "axios";
@@ -47,3 +48,20 @@ export default function Home() {
     </div>
   );
 }
+=======
+import Head from "next/head";
+import "../styles/globals.css";
+
+function MyApp({ Component, pageProps }) {
+    return (
+        <>
+            <Head>
+                <title>22BCS50095</title> {/* Change to your roll number */}
+            </Head>
+            <Component {...pageProps} />
+        </>
+    );
+}
+
+export default MyApp;
+>>>>>>> e82fbc7213c158f26a58f9e1e71e31d43fc265e4

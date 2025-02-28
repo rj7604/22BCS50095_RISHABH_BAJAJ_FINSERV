@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 @import "tailwindcss";
 
 @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+>>>>>>> e82fbc7213c158f26a58f9e1e71e31d43fc265e4
 
 :root {
   --background: #ffffff;
